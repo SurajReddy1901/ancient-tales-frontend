@@ -68,7 +68,7 @@ const Navbar = () => {
             </li>
             <li className="nav__item">
               <NavLink to="/signup" className="nav__link nav__cta" onClick={logoutHandler} >
-              <FontAwesomeIcon icon={faArrowRightFromBracket} className="signout-icon"/>
+               <p className="signout-icon">Logout</p>
               </NavLink>
             </li>
           </ul>
