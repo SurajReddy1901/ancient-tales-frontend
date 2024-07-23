@@ -19,7 +19,6 @@ function Signup() {
         phone: phone,
       })
       .then((res) => {
-        // console.log(res);
         navigate("/signin");
       })
       .catch((err) => {
